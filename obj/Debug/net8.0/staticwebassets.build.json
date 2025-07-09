@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uKV7PwTYiOc0KFNOPU0/6jmjvtD5UfMV6sL0/qGjjy4=",
+  "Source": "IISMSBackend",
+  "BasePath": "_content/IISMSBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

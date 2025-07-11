@@ -32,9 +32,7 @@ public static class ProductEndpoint {
         ).RequireAuthorization();
 
         group.MapGet("/{id}", async(int id, IISMSContext dbContext) => {
-            Product? product = await dbContext.Products.FindAsync(id);
-            return product is null ? Results.NotFound() : Results.Ok(product.ToProductDetailsDto());
-        }).WithName(GetProductEndpointName).RequireAuthorization();
+           
 
 
         group.MapPost("/create", async(CreateProductDto newProduct, IISMSContext dbContext) => {
